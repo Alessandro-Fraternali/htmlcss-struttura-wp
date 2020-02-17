@@ -5,8 +5,7 @@
 }
 .container {
     max-width: 1280px;
-    margin: 0px auto 0px;
-    padding: 0px 48px;
+    margin: 0px auto;
     background-color: #ffff99;
 }
 header {
@@ -16,21 +15,22 @@ header {
   /* end debug */
   margin-top: 25px;
   height: 220px;
+  width: 1280px;
 }
 nav {
   /* debug */
   background-color: red;
   text-align: center;
+  margin-bottom: 20px;
   /* end debug */
   height: 50px;
 }
-.asidesinistri {
+.asidesx {
   float: left;
   width: 290px;
 }
 #sx1 {
-  margin-top: 20px;
-
+  margin-bottom: 20px;
   /* debug */
   height: 380px;
   background-color: cyan;
@@ -38,7 +38,7 @@ nav {
   /* end debug */
 }
 #sx2 {
-  margin-top: 20px;
+  margin-bottom: 20px;
   /* debug */
   height: 120px;
   background-color: green;
@@ -46,10 +46,29 @@ nav {
   /* end debug */
 }
 #sx3 {
-  margin-top: 20px;
   /* debug */
   height: 235px;
   background-color: red;
+  text-align: center;
+  /* end debug */
+}
+.asidedx {
+  width: 350px;
+  float: right;
+  display: inline-block;
+}
+#dx1 {
+  margin-bottom: 20px;
+  /* debug */
+  height: 90px;
+  background-color: cyan;
+  text-align: center;
+  /* end debug */
+}
+#dx2 {
+    /* debug */
+  height: 160px;
+  background-color: green;
   text-align: center;
   /* end debug */
 }
@@ -61,6 +80,7 @@ main {
   /* end debug */
   width: 550px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 footer {
   /* debug */
