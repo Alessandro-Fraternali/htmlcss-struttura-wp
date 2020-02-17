@@ -98,9 +98,10 @@ main {
 }
 
 /* inizio sezioni footer */
+
 .endpage {
   background-color: purple;
-  height: 330px;
+  height: 300px;
 }
 .posts {
   width: 210px;
@@ -132,6 +133,22 @@ main {
   background-color: pink;
   display: inline-block;
   margin-left: 130px;
+  margin-top: 20px;
+}
+.cr {
+  width: 615px;
+  height: 80px;
+  background-color: olive;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.contatti {
+  width: 615px;
+  height: 80px;
+  background-color: gray;
+  display: inline-block;
+  margin-right: 20px;
   margin-top: 20px;
 }
 footer {
