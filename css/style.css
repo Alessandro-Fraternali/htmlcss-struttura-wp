@@ -24,30 +24,49 @@ nav {
   /* end debug */
   height: 50px;
 }
-.sx1 {
-  margin-top: 20px;
-  height: 380px;
+.asidesinistri {
+  float: left;
   width: 290px;
+}
+#sx1 {
+  margin-top: 20px;
+
   /* debug */
+  height: 380px;
   background-color: cyan;
   text-align: center;
   /* end debug */
 }
-.sx2 {
+#sx2 {
   margin-top: 20px;
-  height: 120px;
-  width: 290px;
   /* debug */
+  height: 120px;
   background-color: green;
   text-align: center;
   /* end debug */
 }
-.sx3 {
+#sx3 {
   margin-top: 20px;
-  height: 235px;
-  width: 290px;
   /* debug */
+  height: 235px;
   background-color: red;
   text-align: center;
   /* end debug */
+}
+main {
+  /* debug */
+  background-color: orange;
+  text-align: center;
+  height: 1100px;
+  /* end debug */
+  width: 550px;
+  margin: 0 auto;
+}
+footer {
+  /* debug */
+  background-color: blue;
+  text-align: center;
+  height: 200px;
+  /* end debug */
+  clear: both;
 }
